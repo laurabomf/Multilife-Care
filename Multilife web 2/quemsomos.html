@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quem Somos - Multilife Care</title>
+    <link class="stylesheet" href="css/style.css" rel="stylesheet">
+</head>
+<body>
+
+    <header class="dark-header">
+        <div class="nav-container">
+            <div class="logo">
+                <img src="imagens/logo.multlifecare.png" alt="Logotipo Oficial Multilife Care" class="logo-img">
+            </div>
+            <nav>
+                <ul class="nav-tabs">
+                    <!-- Menu ajustado: Quem Somos está ativa nesta página -->
+                    <li><a href="index.html" class="tab-btn">Home</a></li>
+                    <li><a href="quemsomos.html" class="tab-btn active">Quem Somos</a></li>
+                    <li><a href="cliente.html" class="tab-btn">Portal do Cliente</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- O bloco Hero adaptado com o escopo real da empresa -->
+    <main class="content-section">
+        <section class="hero">
+            <h1>Assistência Multidisciplinar <span>Adulto e Infantil</span></h1>
+            <p>Trabalhamos a assistência domiciliar alicerçados em um conjunto de cuidados de saúde rigorosamente controlados.</p>
+        </section>
+
+        <!-- O Carrossel com os serviços técnicos detalhados da Multilife Care -->
+        <section class="carousel-container">
+            <div class="carousel-viewport">
+                <div class="carousel-track" id="carouselTrack">
+                    <div class="carousel-slide">
+                        <div class="slide-placeholder">
+                            <span class="slide-icon" aria-hidden="true">👨‍⚕️</span>
+                            <h3>Atendimento Médico</h3>
+                            <p>Cuidados personalizados e contínuos em casa para pacientes com limitações físicas ou clínicas.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-slide">
+                        <div class="slide-placeholder">
+                            <span class="slide-icon" aria-hidden="true">💪</span>
+                            <h3>Fisioterapia Domiciliar</h3>
+                            <p>Papel fundamental na prevenção e tratamento de complicações neurológicas e cardiorrespiratórias.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-slide">
+                        <div class="slide-placeholder">
+                            <span class="slide-icon" aria-hidden="true">🗣️</span>
+                            <h3>Fonoaudiologia Especializada</h3>
+                            <p>Tratamento focado na adequação da deglutição, favorecendo uma alimentação saudável e segura.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <button class="carousel-control prev" id="prevBtn" aria-label="Slide anterior">&#10094;</button>
+            <button class="carousel-control next" id="nextBtn" aria-label="Próximo slide">&#10095;</button>
+            
+            <div class="carousel-nav-dots" id="carouselDots">
+                <span class="dot active" data-index="0"></span>
+                <span class="dot" data-index="1"></span>
+                <span class="dot" data-index="2"></span>
+            </div>
+        </section>
+    </main>
+
+    <footer class="premium-footer">
+        <div class="footer-grid">
+            <div class="footer-brand-column">
+                <div class="logo"><span aria-hidden="true">🩺</span> Multilife Care</div>
+                <h3>Gestão de Saúde<br><span>Domiciliar de Referência.</span></h3>
+            </div>
+            <div class="footer-links-column">
+                <h4>Links Úteis</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="quemsomos.html">Quem Somos</a></li>
+                    <li><a href="cliente.html">Portal do Cliente</a></li>
+                </ul>
+            </div>
+            <div class="footer-social-column">
+                <h4>Redes Sociais</h4>
+                <div class="social-icon-wrapper">
+                    <span class="social-icon-bubble">in</span>
+                    <span class="social-icon-bubble" aria-hidden="true">📸</span>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright-bar">
+            <p>&copy; 2026 Multilife Care. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

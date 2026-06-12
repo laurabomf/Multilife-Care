@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal do Cliente - Multilife Care</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="login-page-body">
+
+    <header class="dark-header">
+        <div class="nav-container">
+            <div class="logo">
+                <img src="imagens/logo.multlifecare.png" alt="Logotipo Oficial Multilife Care" class="logo-img">
+            </div>
+            <nav>
+                <ul class="nav-tabs">
+                    <li><a href="index.html" class="tab-btn">Home</a></li>
+                    <li><a href="quemsomos.html" class="tab-btn">Quem Somos</a></li>
+                    <li><a href="cliente.html" class="tab-btn active">Portal do Cliente</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="content-section login-page">
+        <div class="login-card">
+            <h2>Portal do Cliente</h2>
+            <p class="login-subtitle">Insira suas credenciais para acessar os relatórios médicos</p>
+
+            <form id="loginForm">
+                <div class="form-group">
+                    <label for="email">E-mail corporativo ou do paciente</label>
+                    <input type="email" id="email" placeholder="nome@exemplo.com" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Senha de acesso</label>
+                    <div class="password-container">
+                        <input type="password" id="password" placeholder="••••••••" required>
+                        <button type="button" class="show-password-btn" id="togglePassword"
+                            aria-label="Mostrar senha">👁️</button>
+                    </div>
+                </div>
+                <button type="submit" class="login-btn">Entrar no Portal</button>
+            </form>
+        </div>
+    </main>
+
+    <footer class="premium-footer">
+        <div class="footer-grid">
+            <div class="footer-brand-column">
+                <div class="logo"><span aria-hidden="true">🩺</span> Multilife Care</div>
+                <h3>Uma gestão da Saúde<br><span>sem fins lucrativos.</span></h3>
+            </div>
+            <div class="footer-links-column">
+                <h4>Links Úteis</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="quemsomos.html">Quem Somos</a></li>
+                    <li><a href="cliente.html">Portal do Cliente</a></li>
+                </ul>
+            </div>
+            <div class="footer-social-column">
+                <h4>Redes Sociais</h4>
+                <div class="social-icon-wrapper">
+                    <span class="social-icon-bubble">in</span>
+                    <span class="social-icon-bubble" aria-hidden="true">📸</span>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright-bar">
+            <p>&copy; 2026 Multilife Care. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
